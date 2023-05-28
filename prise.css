@@ -1,0 +1,115 @@
+*{
+    box-sizing:border-box;
+    margin:0;
+    }
+    body{
+    font-size:larger;
+    background-repeat:space;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1920' height='1080' preserveAspectRatio='none' viewBox='0 0 1920 1080'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1009%26quot%3b)' fill='none'%3e%3crect width='1920' height='1080' x='0' y='0' fill='rgba(61%2c 59%2c 48%2c 1)'%3e%3c/rect%3e%3cpath d='M0%2c765.76C158.3%2c791.697%2c341.459%2c827.352%2c470.258%2c731.736C598.977%2c636.18%2c599.741%2c447.177%2c638.641%2c291.657C670.923%2c162.592%2c709.906%2c31.64%2c677.654%2c-97.432C646.953%2c-220.295%2c540.579%2c-301.317%2c465.066%2c-402.982C382.251%2c-514.477%2c332.978%2c-654.601%2c212.493%2c-723.685C77.827%2c-800.901%2c-94.661%2c-868.443%2c-236.431%2c-805.209C-379.168%2c-741.544%2c-398.131%2c-548.84%2c-479.155%2c-415.19C-544.459%2c-307.47%2c-626.324%2c-215.221%2c-666.488%2c-95.826C-713.628%2c44.308%2c-787.86%2c197.364%2c-731.147%2c333.904C-674.318%2c470.723%2c-508.221%2c516.972%2c-380.659%2c592.317C-258.119%2c664.696%2c-140.446%2c742.749%2c0%2c765.76' fill='%23312f26'%3e%3c/path%3e%3cpath d='M1920 1666.853C2049.925 1673.134 2191.256 1742.618 2302.244 1674.783 2413.242 1606.942 2432.956 1455.807 2469.551 1330.972 2501.71 1221.272 2497.057 1110.697 2501.098 996.451 2506.0969999999998 855.121 2580.997 693.9069999999999 2496.085 580.819 2411.897 468.69500000000005 2240.381 478.788 2100.996 463.58500000000004 1981.505 450.552 1869.381 490.40200000000004 1749.517 499.38800000000003 1589.873 511.356 1408.525 430.14300000000003 1279.675 525.155 1151.458 619.7 1137.886 806.6379999999999 1118.4189999999999 964.75 1099.255 1120.403 1083.106 1291.783 1169.142 1422.905 1252.626 1550.137 1416.062 1591.92 1560.791 1638.941 1677.372 1676.817 1797.563 1660.934 1920 1666.853' fill='%2349473a'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1009'%3e%3crect width='1920' height='1080' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e");
+    }
+    .title1 {
+    margin-left:40%;
+    font-size: 40px;
+    font-weight:600;
+    color: #ffffff;
+    }
+    .label1 {
+    font-weight:900;
+    display: flex;
+    flex-direction: column;
+    margin-left:50px;
+    color: white;
+    margin-bottom: 4px;
+    }
+    .input1 {
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    margin-left:50px;
+    background-color:#363c42;
+    padding: 10px;
+    margin-bottom: 15px;
+    width: 80%;
+    font-size: 1.4rem;
+    outline: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    transition: all 0.2s ease-in-out;
+    }
+    .input1:focus {
+    background-color: #465363;
+    box-shadow: 0 0 0 1px #355170;
+    }
+    .input1:invalid {
+    border: 1px solid red;
+    }
+    .submit1 , .reset1{
+    width:150px;
+    margin:5px;
+    background-color: #1a202c;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    }
+    button:hover{
+    transform:scale(1.0603);
+    }
+
+/* formularz koniec*/
+/*podstrona z kasą */
+
+    #comeback{
+text-align:center;
+    transition: ease 0.7s;
+    font-weight:600;
+
+    margin-top :5%;
+    Color:white;
+    font-size:100px;
+    text-shadow: 1px 1px 7px ;  
+     
+    } 
+      #money2{
+        margin-top:12rem;
+        align-items: center;
+        padding: 10px;
+        margin-left:12%;
+        height:490px;
+        width:100%;
+        max-width: 640px;
+        background-color:#252525;
+        border-radius:50px 10px ;
+        border:1px solid ;
+        }
+#winpkt{
+    margin-top:100px;
+    margin-right:100px;
+    padding:30px;
+    width:760px;
+    height:230px;
+    background-color:#252525;
+    float:right;
+    border-radius:30px 4px;
+    border:3px solid rgb(131, 131, 131);
+    color:white;
+    font-weight: 900;
+    font-size:25px;
+}
+#comeback{
+    text-align:center;
+        transition: ease 0.7s;
+        font-weight:600;
+        margin-top :5%;
+        Color:white;
+        font-size:100px;
+        text-shadow: 1px 1px 7px ;  
+        } 
+footer{
+    font-size:25px;
+    color:wheat;
+    text-align: center;
+}

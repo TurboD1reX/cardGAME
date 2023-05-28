@@ -1,0 +1,108 @@
+*{
+    box-sizing:border-box;
+    margin:0;
+    }
+    body{
+    font-size:larger;
+    background-repeat:space;
+   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='2200' height='1080' preserveAspectRatio='none' viewBox='0 0 2200 1080'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1115%26quot%3b)' fill='none'%3e%3crect width='2200' height='1080' x='0' y='0' fill='rgba(169%2c 128%2c 0%2c 1)'%3e%3c/rect%3e%3cpath d='M0%2c766.178C178.811%2c780.12%2c362.726%2c893.441%2c524.754%2c816.534C688.286%2c738.913%2c749.083%2c541.087%2c822.664%2c375.698C895.599%2c211.76%2c994.681%2c37.037%2c948.714%2c-136.405C903.482%2c-307.074%2c698.772%2c-372.018%2c588.05%2c-509.548C471.358%2c-654.494%2c447.916%2c-877.457%2c282.891%2c-963.439C112.191%2c-1052.377%2c-102.485%2c-1030.509%2c-282.852%2c-963.307C-457.403%2c-898.272%2c-585.769%2c-752.714%2c-692.474%2c-600.032C-791.242%2c-458.707%2c-832.347%2c-293.437%2c-868.78%2c-124.912C-907.837%2c55.748%2c-989.004%2c248.467%2c-912.262%2c416.616C-835.517%2c584.771%2c-647.276%2c672.47%2c-474.674%2c738.608C-323.616%2c796.491%2c-161.279%2c753.603%2c0%2c766.178' fill='%23876600'%3e%3c/path%3e%3cpath d='M2200 1894.924C2353.572 1887.971 2502.33 1833.931 2624.846 1741.074 2741.895 1652.3609999999999 2780.822 1502.379 2870.94 1386.408 2995.984 1225.49 3255.325 1131.872 3256.594 928.085 3257.817 731.739 3010.127 637.674 2876.499 493.80999999999995 2748.4030000000002 355.90099999999995 2670.416 145.35799999999995 2487.676 100.26400000000001 2305.277 55.253999999999905 2133.236 191.67499999999995 1961.587 268.04100000000005 1812.162 334.52 1676.682 413.15700000000004 1550.505 517.209 1401.0410000000002 640.4649999999999 1190.091 739.117 1158.556 930.263 1127.053 1121.216 1286.7069999999999 1287.727 1397.1680000000001 1446.641 1491.476 1582.317 1605.424 1700.1399999999999 1749.691 1780.6950000000002 1887.693 1857.752 2042.104 1902.0720000000001 2200 1894.924' fill='%23cb9a00'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1115'%3e%3crect width='2200' height='1080' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e");
+    }
+/* formularz*/
+.title {
+    margin-left:40%;
+    font-size: 40px;
+    font-weight:600;
+    color: #ffffff;
+    }
+    .label {
+    font-weight:900;
+    display: flex;
+    flex-direction: column;
+    margin-left:50px;
+    color: #ffffff;
+    margin-bottom: 4px;
+    }
+    .input {
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    margin-left:50px;
+    background-color:#2e3239;
+    padding: 10px;
+    margin-bottom: 15px;
+    width: 80%;
+    font-size: 1.4rem;
+    outline: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    transition: all 0.2s ease-in-out;
+    }
+    .input:focus {
+    background-color: #465363;
+    box-shadow: 0 0 0 1px #355170;
+    }
+    .input:invalid {
+    border: 1px solid red;
+    }
+    .submit , .reset{
+    width:150px;
+    margin:5px;
+    background-color: #1a202c;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    }
+    button:hover{
+    transform:scale(1.0603);
+    }
+
+/* formularz koniec*/
+/*podstrona z kasą */
+
+    #comeback{
+text-align:center;
+    transition: ease 0.7s;
+    font-weight:600;
+    margin-top :7%;
+    Color:white;
+    font-size:100px;
+    text-shadow: 1px 1px 7px ;  
+     
+    } 
+    #kontobankowe{
+        margin-top:50px;
+        margin-left:100px;
+        padding:30px;
+        width:700px;
+        height:300px;
+        background-color:#664b23;
+        text-align: center;
+        float:left;
+        border-radius:30px 4px;
+        border:3px solid rgb(255, 145, 0);
+        color:rgb(233, 233, 233);
+        font-weight: 900;
+        font-size:30px;
+
+      }
+      #money{
+        align-items: center;    
+        padding: 20px;
+        margin-left:55%;
+        margin-top:200px;
+        height:410px;
+        width:100%;
+        max-width: 640px;
+        background-color:#664b23;
+        border-radius:50px;
+        border:1px solid #ffc400;
+        }
+        footer{
+            font-size:25px;
+            color:wheat;
+            text-align: center;
+        }

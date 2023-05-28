@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">    
+    <meta name="theme-color" content="#0A84FF" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Card Game | Main</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="logo.png">
+    
+</head>
+<body><div id="container">
+<div class="tooltip">
+        <div id="information">Information</div>
+        <span class="tooltiptext">Wybierz bohatera, aby wylosować przeciwnika.<br> 
+            Jeśli go pokonasz, zdobędziesz punkty w zakresie od 100 do 160.
+            Jeżeli klikniesz przycisk 'RUN' to twoje punkty zostana obniżone o 50pkt.<br> 
+            Gdy uzbierzesz 10 000 punktów, otrzymasz 50 zł od twórcy strony.
+            Aby otrzymać wygraną kliknij na <a style="color:rgb(37, 189, 7); " href="prise.html">dollar</a> gdzie musisz wypełnić formularz.<br><hr style="margin:5px;">
+            Uważaj, bo przeciwnik może być silny!</span>
+</div>     
+<div class="clock">
+    <div id="time"></div>  
+    <div id="data"></div>
+</div>
+    <p id="article"><b style="margin-left:5px;">Points:</b><span id="points">100</span></p>
+
+    <div id="screen">
+        <div id="walka" ></div>
+        <div id="walka1" ></div>
+        <div id="wynik"></div> 
+        <div id="win"><img src="win.png" width=600 height=600></div>
+        <div id="lose"><img src="lose.png" width=600 height=600></div>
+        <div id="remis"><img src="remis.png" width=600 height=600></div>
+        <button id="walcz" onclick="fight()">Fight</button>
+        <button id="uciekaj" onclick="run()">Run</button> 
+        <button id="powrot" onclick="back()">Return</button>
+    </div> 
+        
+        
+        <div id="startmenu"><a href="index.html"><span>S T A R T M E N U</span></a></div>
+        <div id="newgame"onclick="reload()">N E W G A M E</div>
+        <footer>made by <b style="font-size:larger;">Yehor Kryvoi</b></footer>
+    </div>
+<script src="script.js"></script>
+</body>
+</html> 
